@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  yo:
+  test-workflow:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
